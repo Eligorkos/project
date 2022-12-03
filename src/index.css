@@ -4,9 +4,11 @@
   font-family: MusticaPro;
 }
 .container {
-  max-width: calc(100vw - 50px);
-  margin: 0 auto;
+
 }
 .wrapper{
 
+}
+.nav-logo {
+  alt: unset;
 }

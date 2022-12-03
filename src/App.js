@@ -1,16 +1,21 @@
-
-import Header from './Header/Header'
+import React from 'react';
+import { Routes, Route } from "react-router-dom";
+import Main from './pages/Main';
+import Help from './pages/Help';
+import Catalog from './pages/Catalog';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <div className='wrapper'>
-        <section className='section-header'>
-          <div className='container'>
-              <Header />
-              <h1>React tutorial</h1>
-          </div>
-        </section>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/help" element={<Help />} /> 
+        <Route path="/catalog" element={<Catalog />} /> 
+        <Route path="/main" element={<Main />} /> 
+        <Route path="/login" element={<Login />} /> 
+      </Routes>
+    </>
   );
 }
 
