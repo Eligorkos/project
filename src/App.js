@@ -4,6 +4,8 @@ import Main from './pages/Main';
 import Help from './pages/Help';
 import Catalog from './pages/Catalog';
 import Login from './pages/Login';
+import Notfound from './pages/NotFound.js'
+import Cart from './pages/Cart';
 
 function App() {
   return (
@@ -12,8 +14,9 @@ function App() {
         <Route path="/" element={<Main />} />
         <Route path="/help" element={<Help />} /> 
         <Route path="/catalog" element={<Catalog />} /> 
-        <Route path="/main" element={<Main />} /> 
         <Route path="/login" element={<Login />} /> 
+        <Route path="*" element={<Notfound />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
     </>
   );

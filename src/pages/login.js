@@ -1,14 +1,14 @@
 import React from "react";
 import Header from '../Header/Header'
+import Reklama from '../Header/reklama'
+
 
 function Login(){
     return(
         <div className='wrapper'>
             <section className='section-header'>
-                <div className='container'>
                     <Header />
-              
-                </div>
+                    <Reklama/>
             </section>
         </div>
     ) 

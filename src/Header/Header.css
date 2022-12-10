@@ -1,18 +1,44 @@
-.header {
+header {
     background: #4D4D4D;
+    padding-top: 5px;
+    width: 100%;
 }
-
+nav ul {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    font-size: 26px;
+}
 a {
     color: aliceblue;
+    text-decoration: none; 
 }
-
+a:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+   }
 .clock {
     margin: 10px;
-    background-image: url('../assets/24-hours.png');;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
 }
 .boshka {
    margin: 100px; 
 }
-
+.otstup2 {
+    align-items: center;
+    display: flex;
+    font-size: 40px;
+    
+}
+.otstup3 {
+    padding-right: 5px;
+    
+}
+.reg {
+    background-color: white;
+    border-radius: 8px;
+}

@@ -1,0 +1,30 @@
+.reclama {
+    background-color: #C25942;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.Pumkin {
+    height: 110px;
+    width: 110px;
+
+}
+.Bat {
+    height: 110px;
+    width: 110px;
+
+}
+.Halloween {
+    height: 110px;
+    width: 350px;  
+}
+
+p {
+    font-size: 40px;
+    color: aliceblue;
+    filter: drop-shadow(0 0 4px black);
+}
