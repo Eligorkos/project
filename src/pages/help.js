@@ -2,7 +2,7 @@ import React from "react";
 import Header from '../Header/Header'
 import Reklama from '../Header/reklama'
 import './help.css'
-import { Link } from "react-router-dom";
+import SimpleAccordion from "./accrodionhelp";
 
 function Help(){
     return(
@@ -10,6 +10,9 @@ function Help(){
             <section className='section-header'>
                     <Header />
                     <Reklama/>
+                    <div className="accord">
+                        <SimpleAccordion/>
+                    </div>
             </section>
         </div>
     ) 

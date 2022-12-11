@@ -1,7 +1,9 @@
 import React from "react";
 import Header from '../Header/Header'
 import Reklama from '../Header/reklama'
-// import SwipeableTextMobileStepper from '../Advert/Main/carusel'
+import CarouselBox from "../components/CarouselBox";
+import '../Advert/Main/Main.css'
+import MultiActionAreaCard from "../components/CardOfTovar";
 
 function Main(){
     return(
@@ -9,7 +11,12 @@ function Main(){
             <section className='section-header'>
                     <Header />
                     <Reklama/>
-                    {/* <SwipeableTextMobileStepper/> */}
+                    <CarouselBox/>
+                    <div className="container2">
+                        <div className="CardTov">
+                            <MultiActionAreaCard/>
+                        </div>
+                    </div>
             </section>
         </div>
     ) 

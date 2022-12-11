@@ -6,6 +6,7 @@ import Grouped from './splitbutton2'
 // import cart from '../assets/shopping-cart1.png'
 import {FaShoppingCart} from 'react-icons/fa'
 import Order from "../CatalogOfTovar/Order";
+import Cabinets from "../assets/1200px-Cabbage_in_a_stack.jpg";
 
 export default function Header(props){
     let [cartOpen,setCartOpen] = useState(false)
@@ -35,8 +36,10 @@ export default function Header(props){
                                 <Link to="/" className="otstup3">Археолог</Link>
                                 <img className="nav-logo" src={clock} />
                             </div>
-                        <Link to="/login">Вход</Link>
-                        <Link to="/login">Регистрация</Link>
+                        <Link to="/Cabinet">
+                            <img className="nav-logog" src={Cabinets} />
+                        </Link>
+
                         
                     </ul> 
                 </nav>

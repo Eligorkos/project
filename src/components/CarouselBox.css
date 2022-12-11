@@ -1,0 +1,94 @@
+ul {
+    margin-bottom: 0rem;
+}
+p {
+    margin-bottom: 0rem;
+} 
+a {
+    color: aliceblue;
+    text-decoration: none; 
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+   }
+.d-block  {
+    border-radius: 20px;
+    border: 0.5px solid;
+    width: 520px;
+    height: 345.71px;
+}
+.bibi {
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+   
+}
+.bibi3 {
+    border-radius: 20px;
+    border: 0.5px solid;
+}
+
+.carousel-item-next, .carousel-item-prev, .carousel-item.active {
+    background-color: #6C9E64;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.nano {
+    background-color: #6C9E64;
+    font-size: 26px;
+    font-weight: bold;
+    text-align: center
+}
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
+.container1{
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    position: relative;
+} 
+.png1 {
+    width: 500px;
+    height: 345.71px; 
+    border-radius: 20px;
+    border: 0.5px solid;
+
+}
+.toolz p{
+    width: 500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+
+}
+.carousel-indicators {
+    position: relative;
+}
+.bibo {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.carousel {
+    padding-bottom: 40px;
+}
+
+@media (max-width: 1800px) {
+        .png1  {
+            border-radius: 20px;
+            border: 0.5px solid;
+            width: 200px;
+            height: 150px; 
+         
+
+    }
+}

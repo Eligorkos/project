@@ -2,6 +2,7 @@ header {
     background: #4D4D4D;
     padding-top: 5px;
     width: 100%;
+
 }
 nav ul {
     align-items: center;
@@ -41,4 +42,29 @@ a:hover {
 .reg {
     background-color: white;
     border-radius: 8px;
+}
+.shop-cart-button {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    transition: color 500ms ease;
+}
+.shop-cart-button:hover,
+.shop-cart-button.active {
+    color: green;
+}
+.shop-cart{
+    position: absolute;
+    left: 600px;
+    top: 70px;
+    bottom: 30px;
+    width: 450px;
+    min-height: 100px;
+    background: #fafafa;
+    z-index: 1000;
+}
+.nav-logog {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
 }

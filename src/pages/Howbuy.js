@@ -1,22 +1,21 @@
 import React from "react";
 import Header from '../Header/Header'
 import Reklama from '../Header/reklama'
-import TabPanel from './tabs'
-import "./login.css"
+import './help.css'
+import SimpleAccordion from "./accordionbuy";
 
-function Login(){
+function Howbuy(){
     return(
         <div className='wrapper'>
             <section className='section-header'>
                     <Header />
                     <Reklama/>
-                    <div className="center">
-                        <TabPanel/>
+                    <div className="accord">
+                        <SimpleAccordion/>
                     </div>
             </section>
         </div>
     ) 
 }
 
-export default Login;
-
+export default Howbuy;

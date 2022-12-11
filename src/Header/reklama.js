@@ -8,7 +8,7 @@ function Reklama(){
     return(
         <div className="reclama">
             <img className="Pumkin" src={Pumkin} />
-            <p>Скидки на хэллоуин 15%</p>
+            <p className="rec">Скидки на хэллоуин 15%</p>
             <img className="Halloween" src={Halloween} />
             <img className="Bat" src={Bat} />
         </div>
